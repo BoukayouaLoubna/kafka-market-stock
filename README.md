@@ -38,8 +38,8 @@ bin/zookeeper-server-start.sh config/zookeeper.properties
 ```
 
 ### Start Kafka Server:
--Open a new terminal window and SSH into your EC2 instance.
--Set Kafka heap options and start the Kafka server:
+Open a new terminal window and SSH into your EC2 instance.  
+Set Kafka heap options and start the Kafka server:
 ```sh
 export KAFKA_HEAP_OPTS="-Xmx256M -Xms128M"
 ```
