@@ -88,7 +88,7 @@ Instead of manually sending data, we can automate the process by loading data fr
 ### Example:
 - Take any data from Kaggle or another dataset.
 - Loop through the data, generating and sending it randomly using a Kafka producer.
-- Consume the data using a Kafka consumer and store it in Amazon S3.
+- Consume the data using a Kafka consumer and store it in Amazon S3.  
 This example demonstrates Kafka's mechanism using a single broker and partition on a small machine.
 
 ## Storing Data in Amazon S3:
