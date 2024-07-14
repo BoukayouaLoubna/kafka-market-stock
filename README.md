@@ -1,0 +1,1 @@
+# kafka-market-stock
