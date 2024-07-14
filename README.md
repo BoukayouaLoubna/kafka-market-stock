@@ -79,6 +79,8 @@ At this point, you should be able to send data from the producer and receive it 
 
 ![kafka ](https://github.com/user-attachments/assets/41fab83d-ee97-4b16-bb84-52de253646fb)
 
+**Note**: Don't forget to place your Kafka instance key in a specific path before applying all these commands.
+
  
 ## 2.Using Python to Send, Write, and Read Data in Real Time:
 
