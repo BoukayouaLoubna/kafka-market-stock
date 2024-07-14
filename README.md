@@ -51,13 +51,13 @@ bin/kafka-server-start.sh config/server.properties
 ```
 
 ### Configure Server Properties for Public IP :
--Edit server.properties to set ADVERTISED_LISTENERS to the public IP of your EC2 instance:
+Edit server.properties to set ADVERTISED_LISTENERS to the public IP of your EC2 instance:
 ```sh
 sudo nano config/server.properties
 ```
 
 ### Create a Kafka Topic :
--Open a new terminal window and SSH into your EC2 instance:
+Open a new terminal window and SSH into your EC2 instance:
 ```sh
 cd kafka_2.12-3.3.1
 ```
@@ -67,7 +67,7 @@ bin/kafka-topics.sh --create --topic my_demo --bootstrap-server <public-IP>:9092
 
 ### Start Kafka Consumer :
 
--Open a new terminal window and SSH into your EC2 instance:
+Open a new terminal window and SSH into your EC2 instance:
 ```sh
 cd kafka_2.12-3.3.1
 ```
@@ -75,7 +75,7 @@ cd kafka_2.12-3.3.1
 bin/kafka-console-consumer.sh --topic my_demo --bootstrap-server <public-IP>:9092
 ```
 
-- At this point, you should be able to send data from the producer and receive it on the consumer side.
+At this point, you should be able to send data from the producer and receive it on the consumer side.
 
 ![kafka ](https://github.com/user-attachments/assets/41fab83d-ee97-4b16-bb84-52de253646fb)
 
