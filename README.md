@@ -7,7 +7,7 @@ After studying the theoretical aspects of Apache Kafka, I embarked on a practica
 This project demonstrates setting up Kafka, creating a producer and consumer, and integrating Kafka with Python and AWS services such as S3 and Athena.
 
 ## Architecture:
-![image](https://github.com/user-attachments/assets/d410c005-1f86-4915-95b7-eb0e6480740b)
+![image](https://github.com/user-attachments/assets/11b197e2-b0b7-4c87-a688-9fb59a2024e2)
 
 ## 1.Using Terminal to Send, Write, and Read Data in Real Time:
 
@@ -114,9 +114,9 @@ After configuring AWS CLI, you can upload data from your local machine to S3.
 - Use Athena to query the data stored in S3.
 
 ### Technology Used
- jupyter
- Apache Kafka
- Amazon Web Service (AWS)
+ jupyter  
+ Apache Kafka  
+ Amazon Web Service (AWS)  
 - EC2
 - S3 (Simple Storage Service)
 - Glue Crawler /Catalog
