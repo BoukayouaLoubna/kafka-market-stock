@@ -6,7 +6,7 @@ Kafka is crucial in the stock market for its ability to handle real-time data st
 After studying the theoretical aspects of Apache Kafka, I embarked on a practical journey to test Kafka's functionality. 
 This project demonstrates setting up Kafka, creating a producer and consumer, and integrating Kafka with Python and AWS services such as S3 and Athena.
 
-##
+## Architecture:
 ![image](https://github.com/user-attachments/assets/d410c005-1f86-4915-95b7-eb0e6480740b)
 
 ## 1.Using Terminal to Send, Write, and Read Data in Real Time:
